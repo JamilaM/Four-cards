@@ -7,6 +7,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Four card feature section</title>
+  
+   
+  
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  
+  	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Link to your css file -->
+	<link rel="stylesheet" href="main.css">
+
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,30 +25,83 @@
   </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+ 
+ <div class="container">
+    <div class="header text-center">
+        <h1 class="light">Reliable, efficient delivery</h1>
+        <h1>Powered by Technology</h1>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+        <small>Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful</small>
+    </div>
+     
+     <div class="row">
+         
+         <div class="col-md-4 align-self-end">
+             <div class="card card1 shadow">
+		
+		<div class="card-body">
+			<h4 class="card-title">Supervisor</h4>
+			<p class="card-text">Monitors activity to identify project roadblocks.</p>
+			<img class="card-img-bottom"
+            src="images/icon-supervisor.svg" alt="Card image">
+		</div>
+	</div>
+         </div>
+         
+         
+         <div class="col-md-4">
+             <div class="card card2 shadow">
+		
+		<div class="card-body">
+			<h4 class="card-title">Team Builder</h4>
+			<p class="card-text">Scans our talent network to create the optimal team for your project
+.</p>
+			<img class="card-img-bottom"
+            src="images/icon-team-builder.svg" alt="Card image">
+		</div>
+	</div>
+         </div>
+         
+         <div class="col-md-4 align-self-end">
+             <div class="card card3 shadow">
+		
+		<div class="card-body">
+			<h4 class="card-title">Karmar</h4>
+			<p class="card-text">Regularly evaluates our talent to ensure quality.</p>
+			<img class="card-img-bottom"
+            src="images/icon-karma.svg">
+		</div>
+	</div>
+         </div>
+     </div>
+     
+     <div class="row justify-content-center">
+         
+         
+         
+         <div class="col-md-4">
+             
+             <div class="card card4 shadow">
+		
+		<div class="card-body">
+			<h4 class="card-title">Calculator</h4>
+			<p class="card-text">Uses data from past projects to provide better delivery estimates
+.</p>
+			<img class="card-img-bottom"
+            src="images/icon-calculator.svg" alt="Card image">
+		</div>
+        </div>
+        </div>
+        
+     </div>
+ </div>
 
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Jamila Mustapha</a>.
     </p>
   </footer>
 </body>
